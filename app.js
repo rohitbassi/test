@@ -5,7 +5,7 @@
 //   res.end();
 // }).listen(3000);
 
-var http = require('https');
+var http = require('http');
 
 var server = http.createServer(function (request, response) {
   var reqBody = '';
