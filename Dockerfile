@@ -1,7 +1,7 @@
 FROM node:7
-WORKDIR /github
+WORKDIR /app
 COPY package.json /app
 RUN npm install
-COPY . /github
+COPY . /app
 CMD node app.js
 EXPOSE 3000
