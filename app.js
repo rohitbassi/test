@@ -40,7 +40,7 @@ var app = express();
 
 app.get("/", function(req, res){
 
-res.send("<h1>hello<h2>");
+res.send("<h1>hello there!<h2>");
 
 });
 
